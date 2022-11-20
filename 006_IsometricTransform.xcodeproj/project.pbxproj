@@ -11,6 +11,7 @@
 		1113DC8928F2328E00671A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113DC8828F2328E00671A47 /* ContentView.swift */; };
 		1113DC8B28F2329000671A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1113DC8A28F2329000671A47 /* Assets.xcassets */; };
 		1113DC8E28F2329000671A47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1113DC8D28F2329000671A47 /* Preview Assets.xcassets */; };
+		1113DC9628F232F500671A47 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1113DC9528F232F500671A47 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1113DC8828F2328E00671A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1113DC8A28F2329000671A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1113DC8D28F2329000671A47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1113DC9528F232F500671A47 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1113DC8528F2328E00671A47 /* 006_IsometricTransform */ = {
 			isa = PBXGroup;
 			children = (
+				1113DC9428F232EC00671A47 /* View */,
 				1113DC8628F2328E00671A47 /* _06_IsometricTransformApp.swift */,
 				1113DC8828F2328E00671A47 /* ContentView.swift */,
 				1113DC8A28F2329000671A47 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				1113DC8D28F2329000671A47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1113DC9428F232EC00671A47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1113DC9528F232F500671A47 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1113DC8928F2328E00671A47 /* ContentView.swift in Sources */,
+				1113DC9628F232F500671A47 /* Home.swift in Sources */,
 				1113DC8728F2328E00671A47 /* _06_IsometricTransformApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
